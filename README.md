@@ -2,7 +2,7 @@
 
 ###Introduction
 This **README** includes _how to write a readme_ with:
-> *Markdown Basics*
+> *Markdown Basics* :panda_face: 
 
 ###Git Commands: 
 - git add .                    : adds all
