@@ -5,9 +5,12 @@ This **README** includes _how to write a readme_ with:
 > *Markdown Basics* :panda_face: 
 
 ###Git Commands: 
-- git add .                    : adds all
-- git add -u                   : adds modified / deleted
-- git add --ignore-removal .   : adds modified / new
+
+Command                      |  What does it do?
+------------                 | ---------------
+- git add .                  |  adds all
+- git add -u                 |  adds modified / deleted
+- git add --ignore-removal . |  adds modified / new
 
 Command       | What does it do?
 ------------- | ----------------
@@ -29,3 +32,4 @@ The above function `destroy(x)` does nothing.
 ######Links
 [Reference!](http://git-scm.com/doc)
 http://git-scm.com/doc
+https://github.com/github/gitignore
