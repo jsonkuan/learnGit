@@ -12,10 +12,10 @@ Command                      |  What does it do?
 - git add -u                 |  adds modified / deleted
 - git add --ignore-removal . |  adds modified / new
 
-Command       | What does it do?
-------------- | ----------------
-git reset     | Reset current HEAD to specified state
-git revert    | Revert some existing commits
+Command                      | What does it do?
+-------------                | ----------------
+git reset                    | Reset current HEAD to specified state
+git revert                   | Revert some existing commits
 
 ###Code Formatting 
 This is done using one or three backticks "`"
