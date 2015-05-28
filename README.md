@@ -15,7 +15,7 @@ Below is a listing of some useful commands:
 |git add .                  |  adds(aka stages) all -> after version 2.X			   |	
 |git add -u                 |  adds modified / deleted (not untracked) 				   |
 |git add --ignore-removal . |  adds modified / new (not deleted)	 			   |	
-												   
+			    | 									   
 | **REMOVE**                | 
 |git rm <file>              | removes the file  					           |
 |git rm --cached            | keep file but undo your commit 					   |
