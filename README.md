@@ -45,10 +45,14 @@ Below is a listing of some useful commands:
 		            |
 | **BRANCH**                |
 |git branch <name>          | Create a branch 							   |
-|git branch -d <name>       | Delete a branch							   |
+|git branch -D <name>       | Delete a branch							   |
 |git checkout -b <name>     | Create a new branch and switch to it				   |
 |git merge <name>>          | Merge your branch with the master branch				   |
 
+
+### TIP: 
+`git grep -n <String>` Searches for a string within the code and prints the line numbers (-n option) 
+Further searching commands found at: https://git-scm.com/book/en/v2/Git-Tools-Searching 
 
 ###Code Formatting 
 This is done using one or three backticks "`"
@@ -58,8 +62,6 @@ x = 2 + 2;
 destroy(x);
 ```
 The above function `destroy(x)` does nothing. 
-
-
 
 
 ######Links
