@@ -32,8 +32,28 @@ git commit -amend          | Opens editor to change commit message
 DIFF			   | What does it do?
 -------------              | ----------------
 git diff 		   | Shows changes made in your current working directory
-git diff --cached     	   | Shows difference between index and most recent commit
-git diff --staged	   | Shows difference between 
+git diff --cached      	   | Shows difference between most recent commit and an added(staged) file
+git diff HEAD              | Shows what changed since last commit
+git diff HEAD^             | Shows what changed since the commit BEFORE the latest commit
+
+RESET			   | What does it do?
+-------------              | ----------------
+git reset HEAD <file>      | Uncommit a file
+git reset --soft HEAD^     | Undo last commit
+
+LOG                        | What does it do? 
+-------------              | -----------------
+git log -p                 | Shows diff in the log
+git log --pretty=oneline   | Shows oneline in a pretty way
+git log --oneline --graph  | Shows an ACSII graph 
+git log -Sfoobar           | Shows commits matching "foobar" 
+
+BRANCHING 		   | What does it do?
+-------------              | ----------------
+git branch <name>          | Create a branch 
+git branch -d <name>       | Delete a branch
+git checkout -b <name>     | Create a new branch and switch to it
+git merge <name>>          | Merge your branch with the master branch
 
 
 ###Code Formatting 
