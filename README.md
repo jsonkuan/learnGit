@@ -20,34 +20,29 @@ Below is a listing of some useful commands:
 |git rm <file>              | removes the file  					           |
 |git rm --cached            | keep file but undo your commit 					   |
 |git rm \*~  	            | removes everything ending with '~' 				   |
-	
-| COMMIT  		    | What does it do?							   |
-|-------------              | ----------------						           |		
+			    |	
+| **COMMIT**   		    |
 |git commit -v              | Opens default editor (vim) and shows diff			  	   |
 |git commit -a -m "msg"     | Adds & commits  all tracked files with commit message: "msg"	   |
 |git commit -amend          | Opens editor to change commit message				   |
-		
-| DIFF			    | What does it do?							   |	
-|-------------              | ----------------							   |			
+ 			    |
+| **DIFF**                  |			
 |git diff 		    | Shows changes made in your current working directory	           |
 |git diff --cached     	    | Shows difference between most recent commit and an added(staged) file|
 |git diff HEAD              | Shows what changed since last commit			           |
 |git diff HEAD^             | Shows what changed since the commit BEFORE the latest commit         |
-
-| RESET			    | What does it do?							   |	
-|-------------              | ----------------							   |
+		            |		
+| **RESET**                 |
 |git reset HEAD <file>      | Uncommit a file							   |
 |git reset --soft HEAD^     | Undo last commit							   |
-
-| LOG                       | What does it do? 							   |
-|-------------              | -----------------							   |
+                            |
+| **LOG**                   |
 |git log -p                 | Shows diff in the log						   |
 |git log --pretty=oneline   | Shows oneline in a pretty way					   |
 |git log --oneline --graph  | Shows an ACSII graph 						   |
 |git log -Sfoobar           | Shows commits matching "foobar" 					   |
-
-| BRANCHING 		    | What does it do?							   |
-|-------------              | ----------------							   |
+		            |
+| **BRANCH**                |
 |git branch <name>          | Create a branch 							   |
 |git branch -d <name>       | Delete a branch							   |
 |git checkout -b <name>     | Create a new branch and switch to it				   |
