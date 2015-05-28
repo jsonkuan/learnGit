@@ -9,15 +9,14 @@ Below is a listing of some useful commands:
 
 
 ###Git Commands: 
-
-| ADD (aka staging)         |  What does it do?                                                    |
+ COMMAND                    | WHAT DOES IT DO?
 |------------               | ---------------							   |
+| **ADD (aka staging)**     |  
 |git add .                  |  adds(aka stages) all -> after version 2.X			   |	
 |git add -u                 |  adds modified / deleted (not untracked) 				   |
 |git add --ignore-removal . |  adds modified / new (not deleted)	 			   |	
 												   
-| REMOVE                    |  What does it do?						           |
-|------------               | ---------------						           |		
+| **REMOVE**                | 
 |git rm <file>              | removes the file  					           |
 |git rm --cached            | keep file but undo your commit 					   |
 |git rm \*~  	            | removes everything ending with '~' 				   |
