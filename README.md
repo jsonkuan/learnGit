@@ -32,7 +32,7 @@ git commit -amend          | Opens editor to change commit message
 DIFF			   | What does it do?
 -------------              | ----------------
 git diff 		   | Shows changes made in your current working directory
-git diff --cached     	   | Shows difference between
+git diff --cached     	   | Shows difference between index and most recent commit
 git diff --staged	   | Shows difference between 
 
 
