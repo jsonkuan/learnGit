@@ -12,4 +12,8 @@ public class Code {
 
 	}
 	
+	public static void int getCompterLife() {
+		return computerLife();
+	}
+	
 }
