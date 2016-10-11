@@ -3,6 +3,6 @@ public class Code {
 		System.out.print("This is a complex algorithm");
 	}
 	public void hello(){
-	System.out.println("asfasfaf";)
+		System.out.println("Hello, World";)
 	}
 }
