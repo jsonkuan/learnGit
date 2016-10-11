@@ -37,7 +37,7 @@ Below is a listing of some useful commands:
 |git reset HEAD <file>      | Uncommit a file							   |
 |git reset --soft HEAD^     | Undo last commit							   |
                             |
-| **RESET**                 |
+| **REVERT**                 |
 |git revert <commit id>     | Sets Head to previous commit 				           |
 |			    |									   |	
 | **LOG**                   |
