@@ -5,7 +5,7 @@ This **README** includes _a readme_ with:
 > *Markdown Basics* :panda_face:  
 
 ######BUT
-The main point of this repo is to create a terribly messy git log from practicing git commands. 
+The main point of this repo is to create a terribly messy git log from practising git commands. 
 Below is a listing of some useful commands:
 
 
