@@ -16,4 +16,9 @@ public class Code {
 		return computerLife();
 	}
 	
+	public String hangman() {
+		return completeHangmanGame;
+	}
+
+	
 }
