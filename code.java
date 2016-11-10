@@ -24,5 +24,9 @@ public class Code {
 		System.out.println("This has no meaning");
 	}
 
+	private String soImportant(String hej) {
+		return hej;
+	}
+
 	
 }
