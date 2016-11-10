@@ -6,5 +6,6 @@
 
 	public compareResult() {
 //TODO: Fix method that compares results.
+        // Some comment...
 
 }
