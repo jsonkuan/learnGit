@@ -26,6 +26,8 @@ public class Code {
 
 	// Undrar om det går att pusha det här?
 
+	//Hej på er, ni behöver den här koden!
+
 
 	
 }
