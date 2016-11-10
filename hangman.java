@@ -7,5 +7,6 @@
 	public compareResult() {
 //TODO: Fix method that compares results.
         // Some comment...
+        Log.d("TEST","Some log test...");
 
 }
