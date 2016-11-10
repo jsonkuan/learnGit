@@ -10,3 +10,9 @@
         Log.d("TEST","Some log test...");
 
 }
+
+public anotherMethod(){
+    
+    // This is another method...
+    
+}
