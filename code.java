@@ -26,5 +26,6 @@ public class Code {
 
 	// Undrar om det går att pusha det här?
 
+
 	
 }
