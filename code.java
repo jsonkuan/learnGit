@@ -24,5 +24,7 @@ public class Code {
 		return hej;
 	}
 
+	// Undrar om det går att pusha det här?
+
 	
 }
