@@ -19,10 +19,6 @@ public class Code {
 	public String hangman() {
 		return completeHangmanGame;
 	}
-	
-	public void doesNothing() {
-		System.out.println("This has no meaning");
-	}
 
 	private String soImportant(String hej) {
 		return hej;
