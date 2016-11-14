@@ -28,8 +28,6 @@ public class Code {
 
 	//Hej på er, ni behöver den här koden!
 
-	Hur lyckades jag ändra detta?
-
 
 	
 }
