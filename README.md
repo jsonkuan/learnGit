@@ -11,7 +11,7 @@ Below is a listing of some useful commands:
 
 ### Git Commands: 
  COMMAND                    | WHAT DOES IT DO?
-|------------               | ---------------							   |
+|:-----------:              | :---------------:							   |
 | **ADD (aka staging)**     |  
 |git add .                  |  adds(aka stages) all -> after version 2.X			   |	
 |git add -u                 |  adds modified / deleted (not untracked) 				   |
