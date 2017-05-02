@@ -20,12 +20,13 @@ Below is a listing of some useful commands:
 | **REMOVE**                | 
 |git rm <file>              | removes the file  					           |
 |git rm --cached            | keep file but undo your commit 					   |
-|git rm \*~  	            | removes everything ending with '~' 				   |
-
-| **COMMIT**   		    |
+|git rm \*~  	              | removes everything ending with '~' 				   |
+|-----------                |-----------  
+| **COMMIT**   		           |
 |git commit -v              | Opens default editor (vim) and shows diff			  	   |
 |git commit -a -m "msg"     | Adds & commits  all tracked files with commit message: "msg"	   |
 |git commit -amend          | Opens editor to change commit message				   | 			    
+|-----------                |-----------  
 | **DIFF**                  |			
 |git diff 		    | Shows changes made in your current working directory	           |
 |git diff --cached     	    | Shows difference between most recent commit and an added(staged) file|
