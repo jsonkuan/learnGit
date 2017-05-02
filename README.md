@@ -15,8 +15,7 @@ Below is a listing of some useful commands:
 | **ADD (aka staging)**     |  
 |git add .                  |  adds(aka stages) all -> after version 2.X			   |	
 |git add -u                 |  adds modified / deleted (not untracked) 				   |
-|git add --ignore-removal . |  adds modified / new (not deleted)	 			   |	
-			    | 									   
+|git add --ignore-removal . |  adds modified / new (not deleted)	 			   |
 |:-----------:              |:-----------:  
 | **REMOVE**                | 
 |git rm <file>              | removes the file  					           |
