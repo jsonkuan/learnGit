@@ -16,42 +16,33 @@ Below is a listing of some useful commands:
 |git add .                  |  adds(aka stages) all -> after version 2.X			   |	
 |git add -u                 |  adds modified / deleted (not untracked) 				   |
 |git add --ignore-removal . |  adds modified / new (not deleted)	 			   |
-|:-----------:              |:-----------:  
+|-----------                |-----------  
 | **REMOVE**                | 
 |git rm <file>              | removes the file  					           |
 |git rm --cached            | keep file but undo your commit 					   |
 |git rm \*~  	            | removes everything ending with '~' 				   |
 
-|:-----------:   	    |:-----------:  	
 | **COMMIT**   		    |
 |git commit -v              | Opens default editor (vim) and shows diff			  	   |
 |git commit -a -m "msg"     | Adds & commits  all tracked files with commit message: "msg"	   |
-|git commit -amend          | Opens editor to change commit message				   |
- 			    |
-|:-----------:   	    |:-----------:  	
+|git commit -amend          | Opens editor to change commit message				   | 			    
 | **DIFF**                  |			
 |git diff 		    | Shows changes made in your current working directory	           |
 |git diff --cached     	    | Shows difference between most recent commit and an added(staged) file|
 |git diff HEAD              | Shows what changed since last commit			           |
 |git diff HEAD^             | Shows what changed since the commit BEFORE the latest commit         |
-
-|:-----------:   	    |:-----------:  
 | **RESET**                 |
 |git reset HEAD <file>      | Uncommit a file							   |
-|git reset --soft HEAD^     | Undo last commit							   |
-                            |
-|:-----------:   	    |:-----------:  						           |
+|git reset --soft HEAD^     | Undo last commit							   |                            
+
 | **REVERT**                |
 |git revert <commit id>     | Undo a previous commit    				           |
 
-|:-----------:   	    |:-----------:  			 							
 | **LOG**                   |
 |git log -p                 | Shows diff in the log						   |
 |git log --pretty=oneline   | Shows oneline in a pretty way					   |
 |git log --oneline --graph  | Shows an ACSII graph 						   |
 |git log -Sfoobar           | Shows commits matching "foobar" 					   |
-		            |
-|:-----------:   	    |:-----------:  	
 | **BRANCH**                |
 |git branch <name>          | Create a branch 							   |
 |git branch -d <name>       | Delete a branch							   |
