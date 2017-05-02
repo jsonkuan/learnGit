@@ -1,15 +1,15 @@
-#learnGIT
+# learnGIT
 
-###Introduction
+### Introduction
 This **README** includes _a readme_ with:
 > *Markdown Basics* :panda_face:  
 
-######BUT
+###### BUT
 The main point of this repo is to create a terribly messy git log from practicing git commands. 
 Below is a listing of some useful commands:
 
 
-###Git Commands: 
+### Git Commands: 
  COMMAND                    | WHAT DOES IT DO?
 |------------               | ---------------							   |
 | **ADD (aka staging)**     |  
@@ -53,7 +53,7 @@ Below is a listing of some useful commands:
 |git merge <name>>          | Merge your branch with the master branch				   |
 
 
-###Code Formatting 
+### Code Formatting 
 This is done using one or three backticks "`"
 ```
 int x;
@@ -65,7 +65,7 @@ The above function `destroy(x)` does nothing.
 
 
 
-######Links
+###### Links
 [Reference!](http://git-scm.com/doc)
 http://git-scm.com/doc
 https://github.com/github/gitignore
