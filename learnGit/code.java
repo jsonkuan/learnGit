@@ -1,8 +1,6 @@
 public class Code {
 	public static void main(String [] args){
 		System.out.print("This is a complex algorithm");
-		System.out.print("This is a complex algorithm");
-
 	}
 	
 	public void hello(){
@@ -29,8 +27,6 @@ public class Code {
 	// Undrar om det går att pusha det här?
 
 	//Hej på er, ni behöver den här koden!
-
-	Hur lyckades jag ändra detta?
 
 
 	
