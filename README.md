@@ -1,4 +1,4 @@
-# learnGIT
+# 
 
 ### Introduction
 This **README** includes _a readme_ with:
@@ -60,7 +60,7 @@ destroy(x);
 ```
 The above function `destroy(x)` does nothing. 
 
-
+![alt text](Assets/image.png)
 
 
 ###### Links
